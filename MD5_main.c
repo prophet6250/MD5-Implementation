@@ -69,7 +69,7 @@ create_MD5_digest(const unsigned char *text, unsigned char *digest)
 	unsigned int AA = A, BB = B, CC = C, DD = D;
 
 	/* breaking the modified message into 16 4 byte chunks */
-	for (i = 0, j = 0; i < 16 & j < 64; i++, j += 4) {
+	for (i = 0, j = 0; i < 16 && j < 64; i++, j += 4) {
 		chunks[i] = text[j] | text[j + 1] | text[j + 2] | text[j + 3];
 	}
 	
