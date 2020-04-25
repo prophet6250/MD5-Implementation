@@ -146,7 +146,7 @@ int main(int argc, char *argv[])
 {
 	/* parse 64 bytes at a time when dealing with strlen(plainetxt) >= 512
 	 */
-	unsigned char *plaintext = "Kumar Tatsat";
+	unsigned char *plaintext = "Enter your string here :)";
 	unsigned char digest[16];
 	unsigned char ciphertext[64];
 	unsigned long long int sizeof_plaintext = strlen(plaintext);
