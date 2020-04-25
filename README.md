@@ -1,2 +1,2 @@
 # MD5-Implementation
-my implementation of the MD5 hashing algorithm
+This is by no means relavnant for personal or industrial use, as it is severely compromised. Collisions can be detected very fast and easily. This was just a coding excercise, nothing much.
