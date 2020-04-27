@@ -3,10 +3,10 @@ This is by no means relevant for personal or industrial use, as it is severely c
 
 # Usage
 Compile using gcc, using the command
-gcc MD5_main.c -o MD5 -lm
+`gcc MD5_main.c -o MD5 -lm`
 
 Then run the executable, supplying the original message in the arguments
-./MD5 "put your message here"
+`./MD5 "put your message here"`
 
 # Resources used
 1. https://en.wikipedia.org/wiki/MD5
